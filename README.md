@@ -16,14 +16,20 @@ Make sure you have Node.js and npm installed on your machine. You can download t
 
    ```bash
    git clone https://github.com/your-username/monthly-expense-tracker.git
-2. #cd monthly-expense-tracker
-3. #npm install
-4. #npm start
-Open your browser and visit http://localhost:3000 to view the app.
+2. Go to monthly-expense-tracker Directory
+   ```bash
+   cd monthly-expense-tracker
+3. Configure environment
+   ```bash
+   npm install
+4. Start the project
+    ```bash
+   npm start
+5.Open your browser and visit http://localhost:3000 to view the app.
 
 ###Features
-Track and manage your monthly expenses.
-View a summary of your spending.
+#Track and manage your monthly expenses.
+#View a summary of your spending.
 
 
 ###Acknowledgments
