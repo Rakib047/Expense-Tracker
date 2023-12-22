@@ -14,6 +14,8 @@ export const AddTransaction = () => {
         amount:+amount, //this number convertion is important,other will be passed as string
       }
       addTrasaction(newTransaction)
+      setText("")
+      setAmount(0)
     }
   return (
     <>
