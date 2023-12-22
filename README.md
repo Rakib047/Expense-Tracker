@@ -14,18 +14,23 @@ Make sure you have Node.js and npm installed on your machine. You can download t
 
 1. Clone the repository:
    ```bash
+   
    git clone https://github.com/your-username/monthly-expense-tracker.git
 2. Go to monthly-expense-tracker Directory
       ```bash
+      
       cd monthly-expense-tracker
 3. Configure environment
       ```bash
+      
       npm install
 4. Start the project
          ```bash
+   
             npm install
 5.Open your browser and visit 
       ```bash
+      
        http://localhost:3000
 
 ## Features
