@@ -29,7 +29,7 @@ Make sure you have Node.js and npm installed on your machine. You can download t
    
        npm start
 5. Open your browser and visit (you may have to check if anything is running in port 3000
-       ```bash
+       
       
        http://localhost:3000
 
