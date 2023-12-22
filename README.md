@@ -22,11 +22,11 @@ Make sure you have Node.js and npm installed on your machine. You can download t
       ```bash
       npm install
 4. Start the project
-       ```bash
-      npm start
+         ```bash
+            npm install
 5.Open your browser and visit 
       ```bash
-      http://localhost:3000
+       http://localhost:3000
 
 ## Features
 - Track and manage your monthly expenses.
