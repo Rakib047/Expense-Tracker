@@ -1,6 +1,6 @@
-# Monthly Expense Tracker (in Bangladeshi Tk)
+# Monthly Expense Tracker 
 
-Welcome to the Monthly Expense Tracker, a simple React project to help you manage your monthly expenses in Bangladeshi Taka.
+Welcome to the Monthly Expense Tracker, a simple React project to help you manage your monthly expenses
 
 ## Getting Started
 
@@ -28,10 +28,10 @@ Make sure you have Node.js and npm installed on your machine. You can download t
 5.Open your browser and visit http://localhost:3000 to view the app.
 
 ## Features
-#### Track and manage your monthly expenses.
-#### view a summary of your spending.
+- Track and manage your monthly expenses.
+- view a summary of your spending.
 
 
-###Acknowledgments
+## Acknowledgments
 This is a hobby project as for my React Learning journey!
 
