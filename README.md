@@ -40,8 +40,3 @@ Make sure you have Node.js and npm installed on your machine. You can download t
 
 ## Acknowledgments
 This is a hobby project as for my React Learning journey!
-
-<<<<<<< HEAD
->>>>>>> origin/Frontend-React
-=======
->>>>>>> 01cb842700b34c3d81317b6ed075f61a03c1c9f9
