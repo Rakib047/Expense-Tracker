@@ -25,7 +25,9 @@ Make sure you have Node.js and npm installed on your machine. You can download t
 4. Start the project
     ```bash
    npm start
-5.Open your browser and visit http://localhost:3000 to view the app.
+5.Open your browser and visit 
+   ```bash
+   http://localhost:3000 to view the app.
 
 ## Features
 - Track and manage your monthly expenses.
