@@ -25,11 +25,11 @@ Make sure you have Node.js and npm installed on your machine. You can download t
       
       npm install
 4. Start the project
-         ```bash
+       ```bash
    
        npm start
 5.Open your browser and visit (you may have to check if anything is running in port 3000
-      ```bash
+       ```bash
       
        http://localhost:3000
 
