@@ -19,7 +19,7 @@ Make sure you have Node.js and npm installed on your machine. You can download t
 2. Go to monthly-expense-tracker Directory
       ```bash
       
-      cd monthly-expense-tracker
+      cd expense-tracker
 3. Configure environment
       ```bash
       
