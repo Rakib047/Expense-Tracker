@@ -5,13 +5,13 @@ export const Balance = () => {
   
   let currentBalance=0
   transactions.map((indTrans)=>{
-    currentBalance=+indTrans.amount;
+    currentBalance+=indTrans.amount;
   })
   
   return (
     <>
       <h4>Your balance</h4>
-      <h1>{currentBalance>0?'':'-'}${Math.abs(currentBalance)}</h1>
+      <h1>{currentBalance>0?'':'-'}BDT {Math.abs(currentBalance)}</h1>
     </>
   )
 }

@@ -14,11 +14,11 @@ export const IncomeExpenses = () => {
     <div className="inc-exp-container">
     <div>
       <h4>Income</h4>
-      <p className="money plus">+${income.toFixed(2)}</p>
+      <p className="money plus">+BDT {income.toFixed(2)}</p>
     </div>
     <div>
       <h4>Expense</h4>
-      <p className="money minus">-${expense.toFixed(2)}</p>
+      <p className="money minus">-BDT {expense.toFixed(2)}</p>
     </div>
   </div>
   )
