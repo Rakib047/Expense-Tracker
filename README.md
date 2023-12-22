@@ -27,9 +27,9 @@ Make sure you have Node.js and npm installed on your machine. You can download t
    npm start
 5.Open your browser and visit http://localhost:3000 to view the app.
 
-### Features
-# Track and manage your monthly expenses.
-# iew a summary of your spending.
+## Features
+#### Track and manage your monthly expenses.
+#### view a summary of your spending.
 
 
 ###Acknowledgments
