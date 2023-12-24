@@ -33,15 +33,15 @@ Make sure you have Node.js and npm installed on your machine. You can download t
       
       cd ../BackEnd
 6. Again install all the dependencies for the back end
-       ```bash
+       
    
        npm install
 6. Okay!Now start the back end server!
-       ```bash
+       
    
        npm start
 7. Open your browser and visit http://localhost:5001  (make sure nothing is running on port 5001)
-       ```bash
+       
       
        http://localhost:5001
 
