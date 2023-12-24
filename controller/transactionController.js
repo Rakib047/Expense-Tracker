@@ -65,6 +65,34 @@ exports.addTransaction = async(req,res)=>{
 //@desc GET all trans
 //@route GET /api/v1/trans/:id
 //@access Public
-exports.deleteTransaction = async(req,res)=>{
-    res.send("hello!delete transaction")
+exports.deleteTransaction = async (req,res)=>{
+    try {
+        const transaction=await TransactionModel.findById(req.params.id)
+        
+        if(!transaction){
+            return res.status(404).json(
+                {
+                    success:false,
+                    error:"No transaction found"
+                }
+            )
+        }
+        await transaction.deleteOne(); //remove kaj korena
+        
+        return res.status(200).json(
+            {
+                success:true,
+                data:{}
+            }
+        )
+
+    } catch (err) {
+        console.error('Error:', err);
+        return res.status(500).json(
+            {
+                success:false,
+                err:"Server error,bujlam na"
+            }
+        )
+    }
 }
