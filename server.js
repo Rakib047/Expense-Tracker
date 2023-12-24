@@ -13,6 +13,7 @@ const transactions = require("./routes/transactionRoute")
 
 const app=express()
 
+app.use(express.json())
 app.use("/api/v1/transactions",transactions)
 
 const PORT=process.env.PORT||5001
