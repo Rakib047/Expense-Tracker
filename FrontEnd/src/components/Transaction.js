@@ -8,7 +8,7 @@ export const Transaction = ({ transProp }) => {
   return (
     <li className={sign=='-'?"minus":"plus"}>
       {transProp.text} <span>{sign}BDT {Math.abs(transProp.amount)}</span>
-      <button className="delete-btn" onClick={()=>deleteTransaction(transProp.id)}>x</button>
+      <button className="delete-btn" onClick={()=>deleteTransaction(transProp._id)}>x</button>
     </li>
   );
 };

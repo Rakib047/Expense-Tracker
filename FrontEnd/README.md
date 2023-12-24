@@ -19,17 +19,17 @@ Make sure you have Node.js and npm installed on your machine. You can download t
 2. Go to monthly-expense-tracker Directory
       ```bash
       
-      cd expense-tracker
+      cd monthly-expense-tracker
 3. Configure environment
       ```bash
       
       npm install
 4. Start the project
-       
+       ```bash
    
        npm start
 5. Open your browser and visit (you may have to check if anything is running in port 3000
-       
+       ```bash
       
        http://localhost:3000
 
